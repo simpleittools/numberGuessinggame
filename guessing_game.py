@@ -61,7 +61,7 @@ def start_game():
     #   6. Prompt the player to play again
     play_again = input("Do you want to play again? (yes/no): ")
     #     a. If they decide to play again, start the game loop over.
-    if play_again.lower() == "yes":
+    if play_again.lower() == "yes" or play_again.lower() == "y":
         start_game()
     #     b. If they decide to quit, show them a goodbye message.
     else:
